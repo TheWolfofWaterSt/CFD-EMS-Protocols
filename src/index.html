@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="../js/index.js"></script> 
+  <title>Home</title>
+</head>
+<body class="dark:bg-inherit">
+  <div class="max-w-7xl ml-auto mr-auto text-center">
+    <header>
+      <img src="../images/cfd-header.png" alt="CFD Firetruck Header">
+    </header>
+    <h1 class="text-4xl font-bold mt-12">
+      Chippewa Fire District EMS Protocols
+    </h1>
+    <div class="mb-6 mt-12">
+      <input type="password" id="passwordInput" onkeypress="return enterKeyPressed(event)" placeholder="Enter Password" class="block w-full p-4 text-gray-900 border border-black border-x-2 border-y-2 rounded-lg bg-gray-200 sm:text-md focus:ring-blue-500 focus:border-blue-500">
+    </div>
+      <p id="errorMsg" class="text-red-600 font-bold text-sm dark:text-red-600 dark:font-bold"></p>
+    <button id="loginBtn" onclick="Login()" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full mt-4 w-20">
+      Login
+    </button>
+  </div>
+</body>
+</html>
